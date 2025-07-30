@@ -1,6 +1,23 @@
-# 🚀 Getting started with Strapi
+# CMS Fiqri Baihaqi
+
+A modern Content Management System built with Strapi v5 and MySQL, containerized with Docker.
+
+## 🚀 Getting started with Strapi
 
 Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/dev-docs/cli) (CLI) which lets you scaffold and manage your project in seconds.
+
+### Docker Setup
+
+```bash
+# Start the application
+docker-compose up -d
+
+# Check logs
+docker logs strapi
+
+# Access admin panel
+http://localhost:1337/admin
+```
 
 ### `develop`
 
