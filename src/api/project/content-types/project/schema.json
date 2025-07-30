@@ -12,12 +12,21 @@
   "pluginOptions": {},
   "attributes": {
     "Title": {
-      "type": "string"
+      "type": "string",
+      "required": true
+    },
+    "Tags": {
+      "type": "enumeration",
+      "enum": [
+        "Web Application",
+        "Dekstop Application",
+        "Mobile Application"
+      ]
     },
     "Description": {
       "type": "text"
     },
-    "Project_Image": {
+    "Project_Images": {
       "type": "media",
       "multiple": true,
       "allowedTypes": [

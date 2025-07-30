@@ -21,7 +21,7 @@
     "Description": {
       "type": "text"
     },
-    "Image_Profile": {
+    "Profile_Image": {
       "type": "media",
       "multiple": false,
       "allowedTypes": [

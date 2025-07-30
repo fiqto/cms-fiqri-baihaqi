@@ -11,20 +11,28 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Start_Date": {
-      "type": "date"
-    },
-    "End_Date": {
-      "type": "date"
-    },
     "Title": {
-      "type": "string"
+      "type": "string",
+      "required": true
+    },
+    "Tags": {
+      "type": "enumeration",
+      "enum": [
+        "Work Experience",
+        "Education"
+      ]
     },
     "Agency_Name": {
       "type": "string"
     },
     "Description": {
       "type": "blocks"
+    },
+    "Start_Date": {
+      "type": "date"
+    },
+    "End_Date": {
+      "type": "date"
     },
     "Categories": {
       "type": "relation",
